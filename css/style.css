@@ -1,0 +1,26 @@
+a {
+color: red; 
+text-decoration:none;
+}
+div {
+font-family: Sans-serif;
+margin: auto;
+width:500px;
+background:pink;
+text-align:center;
+}
+#1 {
+margin: auto;
+width:500px;
+color:yellow;
+text-align:none;
+}
+#2 {
+margin: auto;
+width:500px;
+color:green;
+text-align:none;
+}
+blockqoute {
+border: 2p solid red;
+}
