@@ -1,12 +1,17 @@
-h2{
+h2 {
     color: black;
 }
-p{
+
+p {
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h4 {
     color: black;
 }
-h4{
-    color: black;
-}
+
 .hed {
     color: crimson;
     font-family: cursive;
@@ -20,16 +25,17 @@ h4{
     height: 30%;
     background-repeat: round;
     text-align: center;
+    margin-top: -50px;
 }
 
 .t1 {
     width: 33.3%;
+    justify-content: space-around;
 }
 
-.bjp {
-    background: url('../img/sush1.jpg') no-repeat;
-    width: 70%;
-    height: 90%;
+#bjp img {
+    width: 80%;
+    height: 20%;
     background-repeat: round;
     text-align: center;
 }
@@ -42,7 +48,7 @@ h4{
     text-align: center;
 }
 
-a {
+li {
     color: black;
     text-decoration: none;
 }
@@ -57,12 +63,15 @@ a {
     color: black;
     font-family: monospace;
 }
- h3 {
+
+h3 {
     color: blue;
 }
-a{
+
+a {
     color: blue;
 }
+
 div {
     font-family: monospace;
     font-size: 200%;
@@ -120,6 +129,11 @@ ul.format {
 .nav {
     background-color: dimgray;
     overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
 }
 
 .nav a {
